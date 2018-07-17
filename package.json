@@ -1,0 +1,26 @@
+{
+  "name": "qiniu-shell",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeyueguo/qiniu-shell.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zeyueguo/qiniu-shell/issues"
+  },
+  "homepage": "https://github.com/zeyueguo/qiniu-shell#readme",
+  "bin": {
+    "qn": "./bin/qn.js"
+  },
+  "dependencies": {
+    "commander": "^2.16.0",
+    "qiniu": "^7.2.1"
+  }
+}
